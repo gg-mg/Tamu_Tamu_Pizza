@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="css/stylesheet" href="css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Tamu-Tamu Pizza</title </head> <body>
+    <div class="header">
+        <h1><em>Call us on 020-75879356</em></h1>
+        <div class="container">
+            <div class="jumbotron">
+                <div class="topnav-centered">
+                    <ul>
+                        <a href="index.html" class="right">Home</a>
+                        <a href="menu.html" class="right">Make Order</a>
+                        <a href="contact.html" class="right">Contact</a>
+                    </ul>
+                </div><br><br>
+                <p>We serve an assortment of delicious and tasty pizza, that is cooked to perfection for your taste
+                    buds.</p>
+                <div class="container">
+                    <div class="row">
+                        <div class="jumbotron">
+                            <form id="pizzaform">
+                                <h2>Order</h2>
+                                <div id="blanks">
+                                </div>
+                                <div class="form text center">
+                                    <!-- <div class="col-sm-6"></div> -->
+                                    <div class="col-sm-8 order-overlay text-center">
+                                    <!-- <form class="col-sm-6 offset-sm-3 text-center">
+                                    <div class="form-group"> -->
+                                        <!-- <div class="col-md-12"> -->
+                                        <!-- <label for="person1">First Name:</label>
+                                        <input id="person1" class="form-control" type="text"> -->
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-md-12" <label for="person1">Names: </label>
+                                            <input id="person1" class="form-control" type="text" align="center">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <label>Pick your pizza Flavour:</label>
+                                <select id="flavours" class="custom-select custom-select-md mb-3 flavours" required>
+                                    <option value="400">Hawaian</option>
+                                    <option value="400">Ckicken Peri-Peri</option>
+                                    <option value="350">BBQ Steak</option>
+                                    <option value="350">Boerewors</option>
+                                    <option value="200">Veg Tikka</option>
+                                    <option value="350">Chicken Tikka</option>
+                                    <option value="200">Chicken and Mushroom</option>
+                                    <option value="150">Regina Pizza</option>
+                                </select>
+                                <label>Choose size of Pizza:</label>
+                                <select id="sizes" class="custom-select custom-select-md mb-3" id="sizes" required>
+                                    <option value="400">Small</option>
+                                    <option value="850">Medium</option>
+                                    <option value="1000">Large</option>
+                                </select>
+                                <label>Choose Crust:</label>
+                                <select id="crusts" class="custom-select custom-select-md mb-3" id="crust" required>
+                                    <option value="150">Thin Crust</option>
+                                    <option value="250">Thick Crust</option>
+                                    <option value="150">Stuffed Crust</option>
+                                    <option value="250">Gluten-free</option>
+                                    <option value="100">Crisp Crust</option>
+                                </select>
+                                <div id="topping">
+                                    <label>Choose your toppings:</label>
+                                    <select id="toppings" class="custom-select custom-select-md mb-3" id="topping"
+                                        required>
+                                        <option value="100">Tomato</option>
+                                        <option value="130">Onions</option>
+                                        <option value="250">Mushroom</option>
+                                        <option value="100">Peperoni</option>
+                                        <option value="100">Peri-Peri chicken</option>
+                                    </select>
+                                </div>
+
+                                <label for="number">Number of Pizza's</label>
+                                <input type="number" class="form-control" id="number" placeholder="Number of pizzas"
+                                    min="1" max="100" required><br><br>
+                                <a href="#summary">
+                                    <button type="submit" class="btn btn-success order" id="order">
+                                        Order
+                                    </button>
+                                </a>
+                            </form><br><br>
+
+                            <div id="cart">
+                                <table class="table" id="tablecart">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">FLavours</th>
+                                            <th scope="col">Sizes</th>
+                                            <th scope="col"> Crusts</th>
+                                            <th scope="col">Toppings</th>
+                                            <th scope="col">Number</th>
+                                            <th scope="col">Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                                <div class="delivery">
+                                <div class="delivery-info">
+                                    <p id="totalcost">The total is: <span></span></p>
+                                    <p id="delivercost">Would you like a delivery at 50?</p>
+                                    <p id="no">Pick your order at your nearest store</p>
+                                    <p id="yes">Your order will be delivered at: <span></span></p>
+                                    <div class="address">
+                                        <input type="text" placeholder="Your address....." class="input address" />
+                                        <input type="submit" value="Enter" class="button btn btn-success" id="addaddress">
+                                    </div>
+                                </div>
+                                <input type="submit" value="Yes" class="yes-button button btn btn-success">
+                                <input type="submit" value="No" class="no-button button btn btn-success">
+                            <div>
+                            <input type="submit" value="Checkout" class="checkout btn btn-success " id="checkout">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+</html>

@@ -1,0 +1,123 @@
+.navbar {
+    width: 100%;
+    overflow: hidden;
+    float: center;
+    
+  }
+  /*Styling the header*/
+  .header {
+    text-align: center;
+  }
+  /*Coloring h1 to red*/
+  h1 {
+      color: red;
+  }
+  p1 {
+  
+      color: rgb(17, 43, 119);
+  }
+  /*Adding background color to the top navigation*/
+  .topnav-centered {
+    width: 100%;
+    background-color: rgb(27, 184, 6);
+    overflow: hidden;
+    float: center;
+  }
+  /* Style the links inside the navigation bar */
+  .topnav-centered a {
+      float: inline-start;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 15px 17px;
+      text-decoration:red;
+      font-size: 16px;
+    }
+    /* Change the color of links on hover */
+  .topnav-centered a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    /* Add a color to the active/current link */
+    .topnav-centered a.active {
+      background-color: #4CAF50;
+      color: white;
+    }
+    /* Remove bullets and browser defaul settings  */
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 2%;
+    }
+    li {
+      display: inline;
+      float: left;
+    }
+  
+    body {
+      background-image: url('https://bit.ly/2RMR83o');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  .pizzaform {
+    max-width: 500px;
+    margin: auto;
+  }
+  .topnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  }
+    /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+      .navbar a {
+        float: none;
+        display: block;
+      }
+    }
+  .titledBackground {
+      background-image: url('https://bit.ly/2qPU7ge');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100%;
+      border: 20% solid;
+      color: white;
+    } 
+    .titledBackground2 {
+      background-image: url('https://bit.ly/2M1riVq');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100%;
+      border: 20% solid;
+      color: white;
+    } 
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h2 {
+    color: blue;
+    text-align: center;
+  }
+  h3 {
+    color: rgb(228, 74, 87)14)14);
+  
+  }
+  .col-sm-4 {
+    grid-column: 1;
+    grid-row: 2 / 5;
+  }
+  .contact2 {
+    text-align: center;
+  }
